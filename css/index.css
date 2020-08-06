@@ -1,0 +1,548 @@
+body{
+    margin:0;
+    padding:0;
+    max-width:640px;
+    margin:0 auto;
+    min-width:320px;
+}
+ul,li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+/* 头部区域开始 */
+.header{
+    width:100%;
+    height: 48.406px;
+	padding:2% 0;
+    background-color:#04332b;
+}
+.header img{
+	width:100%;}
+.header-logo{
+	width:79%;
+	float:left;
+	text-align:center;
+	padding-left:6%
+	}
+.header-logo img{ width:53%;}
+.header-menu{
+	width:9%;
+	float:right;
+	padding-right:3%;
+	padding-top:3.5%;
+ }
+ .header-menu img{ width:100%}
+ /* 头部区域结束 */
+
+ /* banner开始 */
+ .banner {
+    z-index: 20;
+    margin-top: -1px;
+}
+ .banner img {
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+.btns{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    bottom: 24%;  
+    text-align: center;  
+    padding: 10px 0; 
+ }
+ .btns li{
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 99px;
+    background:#fffbc3 ;
+    overflow: hidden;
+    margin: 0 2px 0 2px;
+    line-height: 99em;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    /* 不独占一行的块级元素 */    
+ }
+ /* banner结束 */
+ /* 精品课程开始 */
+ .course{
+     width: 100%;
+     padding-bottom: 70%;
+     background: url(../imgs/bg1.png) no-repeat top;
+     background-size: 100%;
+     margin-top: -16%;
+     z-index: 50;
+     position: relative;
+     font-size: 62.5%;
+     font-family: "微软雅黑";
+ }
+ .course-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .course-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.course-more{
+    width: 28px;
+    height: 28px;
+    background: #9dd526;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 28px;
+    color: #04332b;
+    transition: all 1s;
+    cursor: pointer;
+}
+a {
+    color: #5f5f5f;
+    text-decoration: none;
+}
+.course-list li {
+    display: block;
+    width: 40%;
+    margin-top: 3%;
+}
+.course-list img {
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+ /* 精品课程结束 */
+ /* 师资团队开始 */
+ .teach{
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+    color: #5f5f5f;
+    width: 100%;
+    height: 415.9px;
+    position: relative;
+}
+ .teach-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .teach-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.teach-list li {
+    width: 30%;
+    margin: 2% 1.5% 2% 1.5%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.teach-list img {
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+.teach-list span {
+    font-size: 1.6em;
+    padding: 2% 0;
+    display: block;
+    color: #000;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+.teach-list a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.teach-more {
+    color: #04332b;
+    font-size: 1.4em;
+    width: 25%;
+    padding: 1.5% 4%;
+    border-radius: 23px;
+    margin: 0 auto;
+    border: #04332b solid 2px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: "微软雅黑";
+}
+.teach-more a{
+    color: #5f5f5f;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+ /* 师资团队结束 */
+ /* 圆开始 */
+.yuan {
+    width: 100%;
+    padding-bottom: 65%;
+    background: url(../imgs/bg2.jpg) no-repeat top;
+    background-size: 100%;
+    padding-top: 20%;
+}
+.yuan-box {
+    width: 100%;
+}
+.left-btn{
+    width: 12%;
+    margin-left: 7%;
+    margin-right: 2%;
+    float: left;
+    margin-top: 25%;
+}
+.center {
+    width: 60%;
+    margin: 0 auto;
+    float: left;
+}
+.center img{
+    overflow: hidden;
+    position: relative;
+    width: 384px;
+}
+.right-btn {
+    width: 12%;
+    margin-right: 4%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 25%;
+}
+/* 圆结束 */
+/* 新闻资讯开始 */
+.news{
+    width: 100%;
+    height: 660px;
+    background: url(../imgs/bg3.jpg) no-repeat top;
+    background-size: 106%;
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+.news-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .news-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.news-list{
+    width: 100%;
+}
+.news-list a {
+    color: #5f5f5f;
+    text-decoration: none;
+}
+.news-list ul {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.news-list ul li {
+    width: 100%;
+    margin-bottom: 3%;
+    font-size: 62.5%;
+}
+.news-list ul li>p {
+    width: 65%;
+    color: #3f3f3f;
+    font-size:14px;
+    line-height: 24px;
+    float: right;
+    padding-bottom: 14px;
+    padding-top: 2%;
+}
+.news-list ul li>p>span {
+    color: #a7a7a7;
+    font-size: 0.8em;
+    display: block;
+    height: 44px;
+    line-height: 20px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-list ul li>img {
+    width: 22%;
+    border-radius: 50%;
+    border: #cdcdcd solid 1px;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+.news-list img{   
+    vertical-align: bottom;
+}
+.news-list-more{
+    color: #04332b;
+    font-size: 13px;
+    padding: 1.5% 4%;
+    width: 25%;
+    border-radius: 23px;
+    margin: 0 auto;
+    border: #04332b solid 2px;
+    text-align: center;
+    float: right;
+    margin-right: 10%;
+
+}
+.news-list-more a {
+    color: #5f5f5f;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* 新闻资讯结束 */
+/* 课堂案例开始 */
+.case{
+    width: 100%;
+    padding-bottom: 75%;
+    background: url(../imgs/bg4.png) no-repeat top;
+    background-size: 100%;
+    margin-top: 5%;
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+.case-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .case-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.case-list li {
+    width: 45%;
+    display: block;
+    float: left;
+    margin: 3% 2.5% 3% 2.5%;
+    text-align: center;
+}
+.case-list a {
+    color: #5f5f5f;
+    text-decoration: none;
+}
+.case-list img{
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+.case-list li span {
+    font-size: 1.2em;
+    padding: 2%;
+    display: block;
+}
+/* 课堂案例结束 */
+/* 学员见证开始 */
+.student{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+.student-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .student-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.student-list {
+    margin-top: 20%;
+    position: relative;
+    z-index: 2;
+}
+.student-list li {
+    width: 44.5%;
+    height: 240px;
+    border: #7f9793 solid 2px;
+    background: #ddfbf6;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 2% 2% 2% 2%;
+}
+.student-list li>img {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -19%;
+    left: 22%;
+    z-index: 1;
+    border: #000 solid 2px;
+}
+.student-list img {
+    transition: all 1s;
+}
+.student-list li>p {
+    padding: 4%;
+    height: 150px;
+    line-height: 1.8;
+    font-size: 1.4em;
+    position: absolute;
+    top: 20%;
+    color: #343434;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.student-list li>a {
+    width: 50%;
+    font-size: 1.2em;
+    padding: 3% 6%;
+    display: block;
+    background: #9dd526;
+    text-align: center;
+    position: absolute;
+    bottom: -5%;
+    left: 20%;
+    border-radius: 18px;
+    transition: all 1s;
+}
+.student-list a{
+    color: #5f5f5f;
+    text-decoration: none;
+}
+/* 学员见证结束 */
+/* 场馆介绍开始 */
+.gym{
+    width: 100%;
+    padding-bottom: 50%;
+    background: url(../imgs/bg5.png) no-repeat top;
+    margin-top: 8%;
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+.gym-Title{
+    font-size: 2.2em;
+    color: #04332b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    transition: all 1s;
+ }
+ .gym-title{
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #04332b;
+    text-align: center;
+    padding: 0px 0 6px 0;
+}
+.gym-cont {
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.gym-cont-left {
+    width: 44%;
+    float: left;
+    margin-right: 5%;
+}
+.gym-cont-left img {
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+.gym-cont-right {
+    width: 50%;
+    height: 140px;
+    float: left;
+    line-height: 2;
+    font-size: 1.2em;
+    color: #002519;
+}
+.gym-cont-right a{
+    color: #002519;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+}
+/* 场馆介绍结束 */
+/* 底部区域开始 */
+.bottom{
+    background: url(../imgs/bg6.jpg) repeat-y top;
+    position: relative;
+    z-index: 10;
+    font-size: 1.4em;
+    padding-bottom: 7%;
+}
+.bottom-top {
+    width: 25%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 38%;
+    top: -18%;
+    z-index: 40;
+    font-size: 1.4em;
+}
+.bottom-top img {
+    width: 100%;
+}
+.bottom img {
+    border: 0;
+    vertical-align: bottom;
+    width: 100%;
+}
+.bottom li {
+    text-align: center;
+    width: 20%;
+    float: left;
+    color: #FFF;
+    padding-top: 1%;
+}
+.bottom li img {
+    width: 50%;
+}
+.bottom li a {
+    color: #FFF;
+    font-size: 0.80em;
+    text-decoration: none;
+}
+.bottom-s li {
+    padding-top: 0;
+}
+
+/* 底部区域结束 */
+
+ 
