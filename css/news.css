@@ -36,7 +36,7 @@ ul,li{
  /* 头部区域结束 */
 
  /* banner开始 */
- .banner {
+ /* .banner {
     z-index: 20;
     margin-top: -1px;
 }
@@ -63,9 +63,9 @@ ul,li{
     line-height: 99em;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
+    display: inline-block; */
     /* 不独占一行的块级元素 */    
- }
+ /* } */
  /* banner结束 */
  /* 新闻资讯开始 */
 .news{
@@ -213,7 +213,7 @@ a {
     position: relative;
     z-index: 10;
     font-size: 1.4em;
-    padding-bottom: 7%;
+    padding-bottom: 23%;
 }
 .bottom-top {
     width: 25%;
@@ -251,6 +251,4 @@ a {
 .bottom-s li {
     padding-top: 0;
 }
-
-
 /* 底部区域结束 */

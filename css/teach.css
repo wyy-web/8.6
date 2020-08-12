@@ -36,7 +36,7 @@ ul,li{
  /* 头部区域结束 */
 
  /* banner开始 */
- .banner {
+ /* .banner {
     z-index: 20;
     margin-top: -1px;
 }
@@ -63,15 +63,15 @@ ul,li{
     line-height: 99em;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
+    display: inline-block; */
     /* 不独占一行的块级元素 */    
- }
+ /* } */
  /* banner结束 */
  /* 师资团队开始 */
  .teach {
     width: 100%;
     padding-bottom: 3%;
-    background: url(../images/bg_6.png) no-repeat top;
+    background: url(../imgs/bg7.png) no-repeat top;
     background-size: 100%;
     margin-top: -16%;
     position: relative;

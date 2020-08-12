@@ -36,7 +36,7 @@ ul,li{
  /* 头部区域结束 */
 
  /* banner开始 */
- .banner {
+ /* .banner {
     z-index: 20;
     margin-top: -1px;
 }
@@ -63,9 +63,9 @@ ul,li{
     line-height: 99em;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
+    display: inline-block; */
     /* 不独占一行的块级元素 */    
- }
+
  /* banner结束 */
  /* 学员见证开始 */
 .student{
